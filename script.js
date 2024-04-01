@@ -3,8 +3,10 @@ let yes=document.getElementById('yes');
 
 yes.addEventListener('click',()=>{
     alert("i love you ❤️❤️");
-     alert("i love you so much ❤️❤️❤️❤️");
+    alert("i love you so much ❤️❤️❤️❤️");
+    alert(" ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️");
     alert("April fool😊😊");
+
 })
 function moveTarget(){
     const maxWidth=400;
