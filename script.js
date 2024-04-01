@@ -2,7 +2,12 @@ const target =document.getElementById('target');
 let yes=document.getElementById('yes');
 
 yes.addEventListener('click',()=>{
-    alert("i love you")
+    Swal.fire({
+        title: "April Fool",
+        // text: "You clicked the button!",
+        icon: "success"
+    });
+    
 })
 function moveTarget(){
     const maxWidth=400;
